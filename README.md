@@ -30,6 +30,19 @@ To test the function, run:
 python -m unittest test.py
 ```
 
+### Running coverage
+Install the dependencies then run 
+```bash
+coverage run -m unittest test.py
+coverage report
+```
+
 ## Requirements  
-- Python 3.x  
+- Python 3.x 
+- Coverage Package
+
+To install packages, run:
+```bash
+pip install -r requirements.txt
+```
 
