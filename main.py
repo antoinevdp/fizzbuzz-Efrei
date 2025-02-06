@@ -9,4 +9,7 @@ def fizz_buzz(n):
         return str(n)
 
 if __name__ == '__main__':
-    fizz_buzz(20)
+    for i in range(1, 101):
+        print(
+            f"{i:3} | {fizz_buzz(i):10} |"
+        )
