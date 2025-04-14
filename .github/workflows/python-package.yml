@@ -5,7 +5,7 @@ name: Python package
 
 on:
   push:
-    branches: [ "dev", "main", "docker" ]
+    branches: [ "dev", "main", "docker", "merge-rules" ]
 
 jobs:
   build:
