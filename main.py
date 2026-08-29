@@ -15,3 +15,5 @@ if __name__ == '__main__':
         print(
             f"{i:3} | {fizz_buzz(i):10} |"
         )
+
+
